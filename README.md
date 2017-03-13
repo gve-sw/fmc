@@ -28,13 +28,17 @@ You will find the corresponding folders for each step.
 
 
 ##Products in this project
-* [Cisco Network Services Orchestrator (NSO)](http://www.cisco.com/c/en/us/solutions/service-provider/solutions-cloud-providers/network-services-orchestrator-solutions.html)
+* [Cisco Firepower Management Center](http://www.cisco.com/c/en/us/products/security/firesight-management-center/index.html)
+* [Cisco Email Security](http://www.cisco.com/c/en/us/products/security/email-security/index.html)
 
 
 
 ###API Documentation
-* [Cisco DevNet: NSO](https://developer.cisco.com/site/nso/)
-
+* [Cisco Firepower Management Center - Programming Guides](http://www.cisco.com/c/en/us/support/security/defense-center/products-programming-reference-guides-list.html)
+* [AsyncOS API for Ci
+sco Email Security 
+Appliances - Getting Started Guide](http://www.cisco.com/c/dam/en/us/td/docs/security/esa/esa9-0/ESA_API_1-0_Getting_Started_Guide.pdf)
+* [Getting Started Guide for AsyncOS API for Cisco Email Security Appliances](http://www.cisco.com/c/en/us/td/docs/security/esa/esa_all/esa_api/b_ESA_API_Getting_Started_olh.html)
 
 
 ###Sample Application - coming soon
