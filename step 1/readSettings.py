@@ -3,6 +3,7 @@
 #Author: Hantzley Tauckoor
 #Date 12 March 2017
 #Python version 3.X
+#hello
 
 def loadSettings(settingsFile):
     """Reads settings file into an list.
