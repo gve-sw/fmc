@@ -82,6 +82,9 @@ post_data = {
   "logBegin": "False",
   "logEnd": "False"
 }
+
+print post_data
+
 try:
     # REST call with SSL verification turned off:
     r = requests.post(url, data=json.dumps(post_data), headers=headers, verify=False)
