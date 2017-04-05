@@ -12,4 +12,4 @@ print "Authenticating..."
 ourRequest.authentication()
 print "Successful"
 
-ourRequest.CHANGEAccessRule()
+ourRequest.GETURLs()

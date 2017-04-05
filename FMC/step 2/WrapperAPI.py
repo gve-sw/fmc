@@ -75,11 +75,13 @@ class Wrapper_API(object):
 		    r = requests.post(url, data=json.dumps(post_data), headers=self.headers, verify=False)
 		    status_code = r.status_code
 		    resp = r.text
+		    print r.status_code
 		    if status_code == 201 or status_code == 202:
 		        #print ("The rule has now been implemented. The time is %s" % time.ctime())
 		        #print "This rule will be in place for %i seconds" % iLength
 		        self.json_resp = json.loads(resp)
 		        return self.json_resp
+		        print "It worked"
 		    else :
 		        r.raise_for_status()
 		        print ("Error occurred in POST --> "+resp)
@@ -162,7 +164,7 @@ class Wrapper_API(object):
 		self.printItems()
 
 
-	def GETObjects(self):
+	def GETObjectGroups(self):
 		"""
 		Returns all network groups within the FMC
 		"""
@@ -179,6 +181,26 @@ class Wrapper_API(object):
 
 		self.GetApiCall(url)
 		self.printItems()
+
+	def GETURLs(self):
+		"""
+		Return all URL objects
+		"""
+		url = self.server + self.api_base_path + "/object/urls"
+
+		self.GetApiCall(url)
+		self.printItems()
+
+
+
+	def GETURLGroups(self):
+		"""
+		Returns all URL Groups
+		"""
+		url = self.server + self.api_base_path + "/object/urlgroups"
+
+		self.GetApiCall(url)
+
 		
 
 
@@ -249,4 +271,4 @@ if __name__ == '__main__':
 
 
 	test = Wrapper_API(server, username, password)
-	#test.authorization
+	
