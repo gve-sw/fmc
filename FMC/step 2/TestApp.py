@@ -12,4 +12,6 @@ print "Authenticating..."
 ourRequest.authentication()
 print "Successful"
 
-ourRequest.GETURLs()
+a = ourRequest.GETWhiteList()
+
+print a
