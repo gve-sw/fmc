@@ -1,6 +1,6 @@
-## Firepower Management Center
+## Cisco Firepower Management Center
 
-Authors
+Authors:
 * Dan Kirkwood
 * Scott Ko
 
