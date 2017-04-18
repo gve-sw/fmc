@@ -1,4 +1,4 @@
-## Cisco Firepower Management Center - Application
+## Cisco Firepower Management Center - URL Checker
 
 Authors:
 * Dan Kirkwood <dkirkwoo@cisco.com>
