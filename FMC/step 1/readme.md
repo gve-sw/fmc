@@ -1,8 +1,8 @@
 ## Cisco Firepower Management Center - Granular Scripts
 
 Authors:
-* Dan Kirkwood
-* Scott Ko
+* Dan Kirkwood <dkirkwoo@cisco.com>
+* Scott Ko <scoko@cisco.com>
 
 April 2017
 

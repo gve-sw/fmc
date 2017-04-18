@@ -1,3 +1,31 @@
+#
+#   Cisco Firepower Management Center (FMC) Wrapper API
+#       v.01
+#
+#   Dan Kirkwood (dkirkwoo@cisco.com)
+#	Scott Ko (scoko@cisco.com)
+#       April 2017
+#
+#       This class provides methods to facilitates
+#       access to the FMC API.
+#
+#   REQUIREMENTS:
+#       Python requests library (issue the 'pip install requests' command in shell or cmd)
+#
+#   WARNING:
+#       This script is meant for educational purposes only.
+#       Any use of these scripts and tools is at
+#       your own risk. There is no guarantee that
+#       they have been through thorough testing in a
+#       comparable environment and we are not
+#       responsible for any damage or data loss
+#       incurred with their use.
+#
+#   INFORMATION:
+#       If you have further questions about this API and script, please contact GVE. Here are the contact details:
+#           For internal Cisco gve-programmability@cisco.com
+#           For Cisco partners, open a case at www.cisco.com/go/ph
+
 import requests
 import sys
 import json
