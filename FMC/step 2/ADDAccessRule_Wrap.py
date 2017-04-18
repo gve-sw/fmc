@@ -34,11 +34,11 @@ post_data = {
     "objects": [
       {
         "type": "Network",
-        "name": "any",
         "id" : "69fa2a3a-4487-4e3c-816f-4098f684826e"
       }
     ]
-  },
+  },        "name": "any",
+
   "destinationNetworks": {
     "objects": [
       {
