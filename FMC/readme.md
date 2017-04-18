@@ -1,8 +1,8 @@
 ## Cisco Firepower Management Center
 
 Authors:
-* Dan Kirkwood
-* Scott Ko
+* Dan Kirkwood <dkirkwoo@cisco.com>
+* Scott Ko <scoko@cisco.com>
 
 
 **Step 1** - A collection of granular scripts for interacting with the FMC.
